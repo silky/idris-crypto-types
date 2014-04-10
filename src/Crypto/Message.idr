@@ -4,7 +4,7 @@
 -- Copyright   : (c) Jan de Muijnck-Hughes
 -- License     : see LICENSE
 -- --------------------------------------------------------------------- [ EOH ]
-module Crypto.Messages
+module Crypto.Message
 
 ||| Representation if Messages
 data Message : Nat -> Type where

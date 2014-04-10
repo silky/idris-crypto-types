@@ -4,12 +4,13 @@
 -- Copyright   : (c) Jan de Muijnck-Hughes
 -- License     : see LICENSE
 -- --------------------------------------------------------------------- [ EOH ]
-module Crypto.Encrypt
+module Crypto.Std.Encrypt
 
 import Crypto.Common
-import Crypto.Key
 import Crypto.Nonce
-import Crypto.Messages
+import Crypto.Message
+
+import Crypto.Std.Key
 
 ||| Description of a Authenticated PKE Scheme.
 ||| 

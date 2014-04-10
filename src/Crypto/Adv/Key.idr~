@@ -1,0 +1,11 @@
+-- ----------------------------------------------------------------- [ Key.idr ]
+-- Module      : Keys
+-- Description : Types Cryptographic Keys MkII
+-- Copyright   : (c) Jan de Muijnck-Hughes
+-- License     : see LICENSE
+-- --------------------------------------------------------------------- [ EOH ]
+module Crypto.Adv.Key
+
+
+data Key : ( vis : Visibility) -> (setting : s ) -> Type where
+  MkEncKey : (setting : s) -> (value : v ) -> Key Public s

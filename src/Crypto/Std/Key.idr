@@ -4,9 +4,10 @@
 -- Copyright   : (c) Jan de Muijnck-Hughes
 -- License     : see LICENSE
 -- --------------------------------------------------------------------- [ EOH ]
-module Crypto.Key
+module Crypto.Std.Key
 
 import Crypto.Common
+
 
 ||| Keys are vectors of bits.
 ||| 

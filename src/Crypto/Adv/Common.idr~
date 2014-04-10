@@ -1,0 +1,13 @@
+-- -------------------------------------------------------------- [ Common.idr ]
+-- Module      : Common
+-- Description : Common things for advanced crypto
+-- Copyright   : (c) Jan de Muijnck-Hughes
+-- License     : see LICENSE
+-- --------------------------------------------------------------------- [ EOF ]
+module Crypto.Adv.Common
+
+data BinPolicy : Type
+     Leaf : (value : v) -> BinPolicy
+     And  : (value : v) -> (l : BinPolicy) -> (r:BinPolicy) -> BinPolicy
+     Or   : (value : v) -> (l : BinPolicy) -> (r:BinPolicy) -> BinPolicy
+

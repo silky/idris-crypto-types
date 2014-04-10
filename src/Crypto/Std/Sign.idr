@@ -4,11 +4,12 @@
 -- Copyright   : (c) Jan de Muijnck-Hughes
 -- License     : see LICENSE
 -- --------------------------------------------------------------------- [ EOH ]
-module Sign
+module Crypto.Std.Sign
 
 import Crypto.Common
-import Crypto.Key
-import Crypto.Messages
+import Crypto.Message
+
+import Crypto.Std.Key
 
 ||| Representation of a digital signature scheme.
 class SignScheme s where

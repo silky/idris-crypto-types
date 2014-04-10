@@ -1,0 +1,14 @@
+package cryptotypes
+
+modules    = Crypto.Common
+           , Crypto.Message
+           , Crypto.Nonce
+
+           , Crypto.Std.Key
+           , Crypto.Std.Encrypt
+           , Crypto.Std.Sign
+
+sourcedir  = src
+
+
+          

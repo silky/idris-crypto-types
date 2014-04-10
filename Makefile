@@ -5,7 +5,7 @@
 ##
 
 IDRIS := idris
-PKG   := crypto
+PKG   := cryptotypes
 
 build: clean
 	$(IDRIS) --build ${PKG}.ipkg

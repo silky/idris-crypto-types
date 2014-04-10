@@ -7,7 +7,6 @@
 module Crypto.Nonce
 
 import Crypto.Common
-import Crypto.Key
 
 data TyNonce = Zero | Random
 
