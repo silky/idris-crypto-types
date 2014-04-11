@@ -8,6 +8,8 @@ modules    = Crypto.Common
            , Crypto.Std.Encrypt
            , Crypto.Std.Sign
 
+           , Crypto.Adv.Common
+           , Crypto.Adv.Key
 sourcedir  = src
 
 
